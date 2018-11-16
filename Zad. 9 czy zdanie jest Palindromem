@@ -1,0 +1,20 @@
+def czypalindrom(zdanie):
+    zdaniezmałych=zdanie.lower()
+    b = list(zdaniezmałych)
+    while b.count(' ') > 0 :
+        b.remove(' ')
+    while b.count('.') > 0 :
+        b.remove('.')
+    while b.count(',') > 0 :
+        b.remove(',')
+    while b.count('!') > 0 :
+        b.remove('!')
+    while b.count('?') > 0 :
+        b.remove('?')
+    litery=''.join(b)
+    if litery==litery[::-1]:
+        print("zdanie \"",zdanie,"\" jest palindromem.")
+    else:
+        print("Zdanie \"",zdanie,"\" nie jest palindroem.")
+        
+czypalindrom('Elf układał kufle')
