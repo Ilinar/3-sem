@@ -1,0 +1,15 @@
+def testwieku(a):
+    if a >=18:
+        print(a, "to pełnoletni")
+    elif 18 > a >= 11:
+        print(a, "to nastolatek")
+    elif 10 >= a >= 2 :
+        print(a, "to dziecko")
+    else:
+        print(a, "to noworodek")
+testwieku(1)        
+testwieku(2)
+testwieku(10)
+testwieku(17)
+testwieku(18)
+testwieku(70)
