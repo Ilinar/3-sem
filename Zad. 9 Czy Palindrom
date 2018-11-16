@@ -1,5 +1,0 @@
-def czypalindrom(zdanie):
-    if zdanie==zdanie[::-1]:
-        print(zdanie,"jest palindromem")
-    else:
-        print(zdanie,"nie jest palindroem")
