@@ -1,0 +1,8 @@
+def zwroclisty(a):
+    i=0
+    while i<len(a):
+        b=[a[i]]
+        print(b)
+        i+=1
+
+zwroclisty([2,3])
