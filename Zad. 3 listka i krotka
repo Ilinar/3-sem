@@ -1,0 +1,11 @@
+def listaikrotka(a):
+    l=a.split(",")
+    k=tuple(l)
+    print(l)
+    print(k)
+listaikrotka("2,3,54")
+
+def listaikrotka(a):
+    print(a.split(","))
+    print(tuple(a.split(",")))
+listaikrotka("2,3,54")
