@@ -1,0 +1,11 @@
+from math import pi
+
+def pro(a,b,c):
+    print("Powierzchnia prostopadłościanu o bokach",a,b,c,"wynosi",2*((a*b)+(a*c)+(b*c)),"a jego objętość",a*b*c)
+    
+pro(2,5,7)
+    
+def walec(r,h):
+    print("Powierzchnia walca o promieniu",r,"i wysokośći",h,"wynosi",(2*(r**2)*pi)+(2*pi*r*h),",a jego objętość",(r**2)*pi*h)
+    
+walec(2,5)
