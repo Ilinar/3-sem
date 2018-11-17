@@ -1,0 +1,4 @@
+def zrobzdanie(wyraz1, wyraz2, wyraz3, wyraz4):
+    zdanie = wyraz1.capitalize() + ' ' + wyraz2 + ' ' + wyraz3 + ' ' + wyraz4 + '.'
+    print(zdanie)
+zrobzdanie("ala", "ma", "czarnego", "kota")
