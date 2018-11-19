@@ -1,9 +1,16 @@
 def ocena(a):
-    if a > 91:
+    if a >= 91:
         print("otrzymałeś ocenę bardzo dobrą")
-    elif 90 > a > 76:
+    elif 90 >= a >= 76:
         print("otrzymałeś ocenę dobrą")
-    elif 75 > a > 51:
+    elif 75 >= a >= 51:
         print("otrzymałeś ocenę dopuszczającą")
     else:
         print("przykro mi, zapraszam we wrześniu")
+        
+ocena(91)
+ocena(90)
+ocena(76)
+ocena(75)
+ocena(51)
+ocena(50)
