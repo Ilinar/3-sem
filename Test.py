@@ -437,8 +437,8 @@ def zliczby(jawneliczby):
 def deszyfruj():
     jawnybox.delete(1.0, END)
     readkeydeszyfruj()
-    global e, n, jawny
-    e = x
+    global d, n, jawny
+    d = x
     n = y
     wjawny(entryszyfrogram.get())
     zliczby(liczby)
@@ -450,8 +450,8 @@ def deszyfruj():
 
 def deszyfrujplik():
     readkeydeszyfruj()
-    global e, n, jawny
-    e = x
+    global d, n, jawny
+    d = x
     n = y
     staryplik2 = nazwastaregopliku2.get()
     nowyplik2 = nazwanowegopliku2.get()
